@@ -3,7 +3,7 @@ sudo timedatectl set-timezone Europe/Berlin
 sudo apt update && sudo apt upgrade
 sudo apt install net-tools mc
 
-sudo apt install cockpit cockpit-doc cockpit-docker cockpit-packagekit xdg-utils libparted-dev pcscd avahi-autoipd libteam-utils exfat-utils f2fs-tools nilfs-tools reiserfsprogs udftools udisks2-btrfs udisks2-lvm2 comgt wvdial wpagui libengine-pkcs11-openssl tuned
+sudo apt install cockpit cockpit-doc cockpit-podman cockpit-packagekit xdg-utils libparted-dev pcscd avahi-autoipd libteam-utils exfat-utils f2fs-tools nilfs-tools reiserfsprogs udftools udisks2-btrfs udisks2-lvm2 comgt wvdial wpagui libengine-pkcs11-openssl tuned
 sudo apt install apt-transport-https ca-certificates curl software-properties-common
 
 sudo apt remove docker docker-engine docker.io containerd runc
